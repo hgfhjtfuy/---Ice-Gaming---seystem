@@ -333,7 +333,7 @@ coll.first().delete()
 })
 
  client.on('ready', function(){
-    client.user.setStatus("idle");
+    client.user.setStatus("dnd");
     var ms = 1 ;
 
 });
